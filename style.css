@@ -1,0 +1,111 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #202329;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Flex_Grid{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    flex: auto;
+}
+
+.Grid{
+    border-radius: 10px;
+    margin-right: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 28vh;
+    background-color: #3c3e44;
+    justify-content: flex-start;
+    box-shadow: 3px 3px 3px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+
+.Contimg{
+    width: 40%;
+    height: 100%;
+    margin: 0px;
+}
+
+.img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.info{
+    margin: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-weight: 900;
+    font-size: 30pt;
+    margin: 0px;
+}
+
+.circle{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+.DeadC{
+    background-color: red;
+}
+
+.AliveC{
+    background-color: green;
+}
+
+/* * {
+    outline: 1px solid red !important;
+ }
+ */
+
+.status{
+    width: auto;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.lastKnow{
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+
+}
+.location{
+    margin-bottom: -5%;
+}
+
+.gray{
+    color: #9b9b9b;
+    font-weight: 600;
+}
+
+.Firts{
+    margin-bottom: -5%;
+}
